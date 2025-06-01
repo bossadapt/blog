@@ -14,8 +14,7 @@
       
       <guid>http://localhost:1313/blogs/posts/how-to-use-display-settings-plus/</guid>
       
-      <description>0: Preface This software is only works if you are utilizing X11 display manager. This blog post explains only how to use it and most linux users will be able to use it out of the box and hover any button to get a quick description of what it does. Otherwise, comparisons against alternative programs such as ARandR and souce code can be found on the github page.
-1: Introduction This blog will be explaining how to utilize the open source display settings called &amp;ldquo;display settings plus&amp;rdquo;.</description>
+      <description>0: Preface This software only works if you are utilizing the X11 display manager. This blog post explains how to become well-rounded in the software but most Linux users will be able to use it out of the box and hover over any button to get a quick description to slowly come to understand how it works. Otherwise, comparisons against alternative programs such as ARandR and source code can be found on the GitHub page.</description>
       
     </item>
     
