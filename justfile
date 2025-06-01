@@ -5,6 +5,5 @@ REMOTE_PATH_BEFORE := "/var/www/bossadapt.org/"
 
 deploy:
     ssh {{REMOTE_USER}}@{{REMOTE_HOST}} "cd {{REMOTE_PATH_BEFORE}} && rm -r -f blogs"
-    hugo --baseURL=https://bossadapt.org/blogs/
     rsync -avz public/ {{REMOTE_USER}}@{{REMOTE_HOST}}:{{REMOTE_PATH}}
     ssh {{REMOTE_USER}}@{{REMOTE_HOST}} "systemctl restart nginx.service"

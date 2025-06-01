@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Bossadapt Blogs</title>
-    <link>http://localhost:1313/blogs/posts/</link>
+    <link>http://bossadapt.org/blogs/posts/</link>
     <description>Recent content in Posts on Bossadapt Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 31 May 2025 13:38:39 -0500</lastBuildDate><atom:link href="http://localhost:1313/blogs/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 31 May 2025 13:38:39 -0500</lastBuildDate><atom:link href="http://bossadapt.org/blogs/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Use Display Settings Plus</title>
-      <link>http://localhost:1313/blogs/posts/how-to-use-display-settings-plus/</link>
+      <link>http://bossadapt.org/blogs/posts/how-to-use-display-settings-plus/</link>
       <pubDate>Sat, 31 May 2025 13:38:39 -0500</pubDate>
       
-      <guid>http://localhost:1313/blogs/posts/how-to-use-display-settings-plus/</guid>
+      <guid>http://bossadapt.org/blogs/posts/how-to-use-display-settings-plus/</guid>
       
       <description>0: Preface This software only works if you are utilizing the X11 display manager. This blog post explains how to become well-rounded in the software but most Linux users will be able to use it out of the box and hover over any button to get a quick description to slowly come to understand how it works. Otherwise, comparisons against alternative programs such as ARandR and source code can be found on the GitHub page.</description>
       
