@@ -1,0 +1,20 @@
+{
+    "name": "Bossadapt Blogs",
+    "short_name": "Bossadapt Blogs",
+    "start_url": "http://localhost:1313/blogs/",
+    "theme_color": "#434648",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "/blogs/icons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/blogs/icons/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

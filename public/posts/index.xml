@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Bossadapt Blogs</title>
+    <link>http://localhost:1313/blogs/posts/</link>
+    <description>Recent content in Posts on Bossadapt Blogs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 31 May 2025 13:38:39 -0500</lastBuildDate><atom:link href="http://localhost:1313/blogs/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Use Display Settings Plus</title>
+      <link>http://localhost:1313/blogs/posts/how-to-use-display-settings-plus/</link>
+      <pubDate>Sat, 31 May 2025 13:38:39 -0500</pubDate>
+      
+      <guid>http://localhost:1313/blogs/posts/how-to-use-display-settings-plus/</guid>
+      
+      <description>0: Preface This software is only works if you are utilizing X11 display manager. This blog post explains only how to use it and most linux users will be able to use it out of the box and hover any button to get a quick description of what it does. Otherwise, comparisons against alternative programs such as ARandR and souce code can be found on the github page.
+1: Introduction This blog will be explaining how to utilize the open source display settings called &amp;ldquo;display settings plus&amp;rdquo;.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

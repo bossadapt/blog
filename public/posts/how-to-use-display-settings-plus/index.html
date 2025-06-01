@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en-us"><head><script src="/blogs/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=blogs/livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="content-type" content="text/html">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title itemprop="name">How to Use Display Settings Plus | Bossadapt Blogs</title>
+<meta property="og:title" content="How to Use Display Settings Plus | Bossadapt Blogs" />
+<meta name="twitter:title" content="How to Use Display Settings Plus | Bossadapt Blogs" />
+<meta itemprop="name" content="How to Use Display Settings Plus | Bossadapt Blogs" />
+<meta name="application-name" content="How to Use Display Settings Plus | Bossadapt Blogs" />
+<meta property="og:site_name" content="" />
+
+<meta name="description" content="">
+<meta itemprop="description" content="" />
+<meta property="og:description" content="" />
+<meta name="twitter:description" content="" />
+
+<meta property="og:locale" content="en-us" />
+<meta name="language" content="en-us" />
+
+  <link rel="alternate" hreflang="en" href="http://localhost:1313/blogs/posts/how-to-use-display-settings-plus/" title="" />
+
+
+
+
+
+    
+    
+    
+
+    <meta property="og:type" content="article" />
+    <meta property="og:article:published_time" content=2025-05-31T13:38:39-0500 />
+    <meta property="article:published_time" content=2025-05-31T13:38:39-0500 />
+    <meta property="og:url" content="http://localhost:1313/blogs/posts/how-to-use-display-settings-plus/" />
+
+    
+
+    
+
+    <script defer type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "headline": "How to Use Display Settings Plus",
+        "author": {
+        "@type": "Person",
+        "name": ""
+        },
+        "datePublished": "2025-05-31",
+        "description": "",
+        "wordCount":  1579 ,
+        "mainEntityOfPage": "True",
+        "dateModified": "2025-05-31",
+        "image": {
+        "@type": "imageObject",
+        "url": ""
+        },
+        "publisher": {
+        "@type": "Organization",
+        "name": "Bossadapt Blogs"
+        }
+    }
+    </script>
+
+
+<meta name="generator" content="Hugo 0.123.7">
+
+    
+    <meta property="og:title" content="How to Use Display Settings Plus" />
+<meta property="og:description" content="0: Preface This software only works if you are utilizing the X11 display manager. This blog post explains how to become well rounded in the software but most Linux users will be able to use it out of the box and hover over any button to get a quick description to slowly come to understand how it works. Otherwise, comparisons against alternative programs such as ARandR and source code can be found on the GitHub page." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/blogs/posts/how-to-use-display-settings-plus/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2025-05-31T13:38:39-05:00" />
+<meta property="article:modified_time" content="2025-05-31T13:38:39-05:00" />
+
+
+
+    
+    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="How to Use Display Settings Plus"/>
+<meta name="twitter:description" content="0: Preface This software only works if you are utilizing the X11 display manager. This blog post explains how to become well rounded in the software but most Linux users will be able to use it out of the box and hover over any button to get a quick description to slowly come to understand how it works. Otherwise, comparisons against alternative programs such as ARandR and source code can be found on the GitHub page."/>
+
+
+    
+
+    <link rel="canonical" href="http://localhost:1313/blogs/posts/how-to-use-display-settings-plus/">
+    <link href="/blogs/style.min.2d921c18cf1ec555ffc03d59a8adc211c402c68c930c27d6a0c306ab175a8d09.css" rel="stylesheet">
+    <link href="/blogs/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
+
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/blogs/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/blogs/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/blogs/icons/favicon-16x16.png">
+    <link rel="mask-icon" href="/blogs/icons/safari-pinned-tab.svg">
+    <link rel="shortcut icon" href="/blogs/favicon.ico">
+
+
+
+
+<link rel="manifest" href="http://localhost:1313/blogs/site.webmanifest">
+
+<meta name="msapplication-config" content="/blogs/browserconfig.xml">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="theme-color" content="#434648">
+
+    
+    <link rel="icon" type="image/svg+xml" href="/blogs/icons/favicon.svg">
+
+    
+    
+</head>
+<body data-theme = "" class="notransition">
+
+<script src="/blogs/js/theme.js"></script>
+
+<div class="navbar" role="navigation">
+    <nav class="menu" aria-label="Main Navigation">
+        <a href="http://localhost:1313/blogs/" class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" 
+viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" 
+stroke-linejoin="round" class="feather feather-home">
+<title></title>
+<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+<polyline points="9 22 9 12 15 12 15 22"></polyline>
+</svg>
+        </a>
+        <input type="checkbox" id="menu-trigger" class="menu-trigger" />
+        <label for="menu-trigger">
+            <span class="menu-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" stroke="currentColor" fill="none" viewBox="0 0 14 14"><title>Menu</title><path stroke-linecap="round" stroke-linejoin="round" d="M10.595 7L3.40726 7"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 3.51488L3.49301 3.51488"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 10.4851H3.49301"></path><path stroke-linecap="round" stroke-linejoin="round" d="M0.5 12.5V1.5C0.5 0.947715 0.947715 0.5 1.5 0.5H12.5C13.0523 0.5 13.5 0.947715 13.5 1.5V12.5C13.5 13.0523 13.0523 13.5 12.5 13.5H1.5C0.947715 13.5 0.5 13.0523 0.5 12.5Z"></path></svg>
+            </span>
+        </label>
+
+        <div class="trigger">
+            <ul class="trigger-container">
+                
+                
+                <li class="menu-separator">
+                    <span>|</span>
+                </li>
+                
+                
+            </ul>
+            <a id="mode" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-sunny" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>LIGHT</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-moon" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>DARK</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+            </a>
+        </div>
+    </nav>
+</div>
+
+<div class="wrapper post">
+    <main class="page-content" aria-label="Content">
+        <article>
+            <header class="header">
+                <h1 class="header-title">How to Use Display Settings Plus</h1>
+                
+                
+                
+                <div class="post-meta">
+                    <time datetime="2025-05-31T13:38:39-05:00" itemprop="datePublished"> May 31, 2025 </time>
+                </div>
+                
+            </header>
+            
+            <div class="page-content">
+                <h1 id="0-preface">0: Preface</h1>
+<p>This software only works if you are utilizing the <a href="https://en.wikipedia.org/wiki/X_Window_System">X11 display manager</a>. This blog post explains how to become well rounded in the software but most Linux users will be able to use it out of the box and hover over any button to get a quick description to slowly come to understand  how it works. Otherwise, comparisons against alternative programs such as ARandR and source code can be found on the <a href="https://github.com/bossadapt/Display-Settings-Plus">GitHub page</a>.</p>
+<p>Also before this begins its important to understand that the there are two levels of current settings. The first would be the settings that <strong>currently applied</strong> and the other would be the <strong>current custom</strong> which are settings that are currently sitting inside the fields(whether they are applied or not).</p>
+<h1 id="1-introduction">1: Introduction</h1>
+<p>This blog will explain how to utilize the open-source display settings tool called &ldquo;Display Settings Plus&rdquo; to its full potential. First, I will walk you through how to download the software, then follow that up by explaining what each individual button does so you can use the software as good as it&rsquo;s creator.</p>
+<h1 id="2-how-to-download">2: How to Download</h1>
+<p><img src="/blogs/images/how-to-use-display-settings-plus/recentReleases.png" alt="Picture outlining recent release assets">
+To download the software, head to the <a href="https://github.com/bossadapt/Display-Settings-Plus/releases">releases page</a>. After visiting the page, choose your preferable download type found under the <strong>assets</strong> tab of the most recent release, as seen above. If you are unsure which one would be the right choice, check the table below and see which one relates most to you.</p>
+<table>
+<thead>
+<tr>
+<th>Download Type</th>
+<th>Who It&rsquo;s For (not comprehensive)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>.rpm</td>
+<td>Red Hat, Fedora, CentOS, OpenSUSE, OpenMandriva, Oracle Linux, and some other Linux distributions</td>
+</tr>
+<tr>
+<td>.AppImage</td>
+<td>Debian, Ubuntu, Fedora, openSUSE, Linux Mint, and more Linux distributions</td>
+</tr>
+<tr>
+<td>.deb</td>
+<td>Debian distributions</td>
+</tr>
+<tr>
+<td>zip / tar.gz</td>
+<td>Those who wish to unzip / <code>tar -xvzf</code> the source code and compile their own Tauri application</td>
+</tr>
+</tbody>
+</table>
+<h1 id="3-how-to-use">3: How to Use</h1>
+<p>Now to jump into how this software is functions and should be used. To explain properly I will devide that app into 5 individual sections which then get cut into even tinier bite sized information for you to consume. Also don&rsquo;t be scared to not understand anything the first time you read it because you will likely understand after reading a more closely related section.</p>
+<h2 id="31-focused-monitor-settings">3.1: Focused Monitor Settings</h2>
+<p><img src="/blogs/images/how-to-use-display-settings-plus/focusedSection.png" alt="Focused Monitor Settings"></p>
+<p>The focused monitor section is the core of editing <em>custom</em> settings. This is the place to go when you want to correct a specific monitor&rsquo;s position by the pixel or adjust other attributes not covered by the freehand section, such as whether it&rsquo;s enabled, what rotation it&rsquo;s in, and what mode the monitor is in. Lets talk about each portion in more detail.</p>
+<h3 id="311-focused-monitor">3.1.1: Focused Monitor</h3>
+<p><img src="/blogs/images/how-to-use-display-settings-plus/focusedMonitor.png" alt="Focused Monitor Portion"></p>
+<p>This portion allows the user to select (left-click) connected which monitor the following settings will affect/view. The highlighted bright pink indicates it has been selected or is being hovered on, while the grey indicates it is not in focus. The name is based on the physical port each monitor is plugged into.</p>
+<h3 id="312-enable">3.1.2: Enable</h3>
+<p><img src="/blogs/images/how-to-use-display-settings-plus/enable.png" alt="Enable Section"></p>
+<p>The enable section features a <strong>toggle switch</strong> and a <strong>Reset Monitor button</strong>.</p>
+<p>The <strong>toggle button</strong> will disable all of the other setting options if switched to the left. This is because it will tell the computer not to use the monitor when applied, and it will revert back to the monitor&rsquo;s factory default settings after it gets re-enabled.</p>
+<p>The <strong>Reset Monitor Button</strong> resets <em>all</em> (rotation, position and mode) of the focused monitor&rsquo;s settings to what the software believes is the active current settings applied.</p>
+<h3 id="313-position">3.1.3: Position</h3>
+<p><img src="/blogs/images/how-to-use-display-settings-plus/position.png" alt="Position Section">
+The <strong>position section</strong> is pretty straightforward. This portion is a little redundant given the freehand position, but allows the user to pixel-push to get more finer grain control. Updating either the X or Y value will change the monitor&rsquo;s position in real time inside the freehand position section.</p>
+<p>Some important information about positions:</p>
+<ul>
+<li>A monitor&rsquo;s position is based on the very top-left of the monitor.</li>
+<li>The Y-axis is reversed, and increasing the Y will lower the monitor.</li>
+<li>Positions will be normalized when applied to ensure the farthest left monitor starts at X:0 and the highest monitor is Y:0. and offset all other positions to keep their relational offsets from eachother</li>
+<li>Overlapping monitors (i.e., setting the same position) is how you <strong>mirror</strong> a monitor but can be hard to see in freehand positions.</li>
+</ul>
+<p>The <strong>reset button</strong> in this section only resets the X and Y of the focused monitor to  what the software believe is the current applied settings (what they were after the last apply or what they were in the last state synced/pulled from the driver).</p>
+<h3 id="314-rotation">3.1.4: Rotation</h3>
+<p><img src="/blogs/images/how-to-use-display-settings-plus/rotation.png" alt="Rotation Section">
+The Rotation dropdown provides four rotation options to select after clicking it. Notably, no matter which option you choose, the furthest top-left spot remains the referenced spot for its position. Also how the rotation affects the monitor is best understood by looking at the freehand position section. However, here is a quick explanation:</p>
+<ul>
+<li><strong>Normal</strong> – the default rotation;</li>
+<li><strong>Left</strong> – the default top now faces left;</li>
+<li><strong>Inverted</strong> – the defaulted top now faces down;</li>
+<li><strong>Right</strong> – the defauled top now faces right;</li>
+</ul>
+<p>The <strong>reset button</strong> in this section only resets the rotation of the focused monitor to its last applied or last synced state.</p>
+<h3 id="315-mode">3.1.5: Mode</h3>
+<p><img src="/blogs/images/how-to-use-display-settings-plus/mode.png" alt="Mode Section">
+The Mode section includes a <strong>Ratio</strong> dropdown, a <strong>Rate</strong> dropdown, and a <strong>Reset</strong> button.</p>
+<p>The <strong>Ratio</strong> dropdown allows you to choose the resolution based on what the monitor/driver says it can handle. Note that the ratio essentially resizes the monitor virtually, so a perfect <strong>mirror</strong> requires monitors to have the same ratio to fully overlap. Resizing down essentially makes multiple pixels act as one, which reduces resolution (fewer dots to make pictures = more blurriness).</p>
+<p>The <strong>Rate</strong> dropdown lets the user choose the refresh rate (in hertz). Provided options depend on the monitor&rsquo;s capabilities for the selected <strong>Ratio</strong>. Changing the Ratio resets the Rate to a default and must be manually corrected.</p>
+<p>The <strong>reset button</strong> resets the Ratio and Rate to the last applied or last synced values.</p>
+<h2 id="32-freehand-position">3.2: Freehand Position</h2>
+<p><img src="/blogs/images/how-to-use-display-settings-plus/freehandPositions.png" alt="Freehand Positions">
+This is the bread and butter that lets you see the current state of customized settings in action and edit their positions. So let&rsquo;s dive into it.</p>
+<h3 id="321-freehand-canvas">3.2.1 Freehand Canvas</h3>
+<p><img src="/blogs/images/how-to-use-display-settings-plus/freehandCanvas.png" alt="Freehand Canvas"></p>
+<p>In this section, you should notice your monitor(s) in their current custom settings version of thier position, rotation, and size (ratio). Each monitor displays a screenshot of what was on the screen when the application started, and the name corresponding to the physical port used. You can <strong>left-click to drag monitors</strong> or <strong>right-click to pan the scene</strong>.</p>
+<p>Dragging then dropping causes monitors to <strong>snap</strong> to nearby ones when released to avoid gaps. Snapping connects one of the following points of the dropped monitor to the closest point on other monitors:</p>
+<ul>
+<li>top-left</li>
+<li>top-middle</li>
+<li>top-right</li>
+<li>middle-left</li>
+<li>middle-right</li>
+<li>bottom-left</li>
+<li>bottom-middle</li>
+<li>bottom-right</li>
+</ul>
+<h3 id="322-freehand-settings">3.2.2 Freehand Settings</h3>
+<p><img src="/blogs/images/how-to-use-display-settings-plus/freehandOptions.png" alt="Freehand Options"></p>
+<p>We&rsquo;ll quickly go through what these buttons and the single text field do:</p>
+<ul>
+<li><strong>Reset Monitor Positions</strong>: Resets all monitors&rsquo; X and Y values to the last applied or synced state.</li>
+<li><strong>Reset Camera Position</strong>: Re-pans the canvas so the top-left starts at X:0, Y:0.</li>
+<li><strong>Normalize Positions</strong>: Ensures the leftmost monitor starts at X:0 and the topmost at Y:0, offsetting others accordingly.</li>
+<li><strong>Scale</strong>: Controls the ratio of real monitors&rsquo; size inside the canvas to reduce excessive panning (e.g., 1:10 makes a 100x100 monitor 10x10 pixels).</li>
+</ul>
+<h2 id="33-presets-menu">3.3: Presets Menu</h2>
+<p><img src="/blogs/images/how-to-use-display-settings-plus/presets.png" alt="Presets Menu"></p>
+<p>We’ve finally gotten through most of the editing features and now we figure out how to save our creations. This section is <strong>cut into three separate pieces by two bright white lines</strong>:</p>
+<ul>
+<li>
+<p><strong>Top Piece</strong>: Contains the &ldquo;Presets&rdquo; title, a text input, and a &ldquo;+&rdquo; button. The input field is dual-purpose:</p>
+<ul>
+<li>Filters existing presets as you type (leave empty to show all)</li>
+<li>If you press &ldquo;+&rdquo;, the text becomes the name of a new preset</li>
+</ul>
+</li>
+<li>
+<p><strong>Middle Piece</strong>: Contains your saved presets which will be empty at first. Each preset appears as two buttons:</p>
+<ul>
+<li>Clicking the <strong>name</strong> makes the button highlight pink indicating you&rsquo;ve selected it and overwrites the current custom setting with it contained settings(if non-empty)</li>
+<li>Clicking the <strong>X</strong> deletes it</li>
+</ul>
+</li>
+<li>
+<p><strong>Bottom Piece</strong>: The simplest and arguably most important. <strong>Clicking &ldquo;Overwrite&rdquo; while a preset is selected</strong> saves (overwrites if the preset was not empty) the current settings to that preset’s JSON file for later use.</p>
+</li>
+</ul>
+<h2 id="34-mass-buttons">3.4: Mass Buttons</h2>
+<p><img src="/blogs/images/how-to-use-display-settings-plus/massButtons.png" alt="Mass Buttons"></p>
+<p>Left to right:</p>
+<ul>
+<li><strong>Reset</strong>: Sets <em>all</em> unapplied settings back to the last applied or synced state.</li>
+<li><strong>Resync</strong>: Pulls current monitor settings directly from the driver, overwrites unapplied settings, and resets the state. Useful if settings aren&rsquo;t applying or another tool altered the computer&rsquo;s applied state.</li>
+<li><strong>Clipboard</strong>: Copies the current custom settings as a simple shell script directly to the user&rsquo;s clipboard. Useful for applying at startup. Example of output:
+<code>xrandr --output HDMI-0 --off --output DP-0 --mode 1920x1080 --rate 60 --pos 1920x0 --rotate normal ...</code></li>
+<li><strong>Mass Apply</strong>: Applies all settings at once, with a fallback option to revert in case of regrets. Recommended for consistent application.</li>
+<li><strong>Modular Apply</strong>: Applies each change one at a time with an option to undo certain parts. This is experimental and may cause incosistent results and looks spooky while apply each portion due to the dependency of each setting to look right.</li>
+</ul>
+<h2 id="35-primary-monitor-section">3.5: Primary Monitor Section</h2>
+<p><img src="/blogs/images/how-to-use-display-settings-plus/primaryMonitor.png" alt="Primary Monitor"></p>
+<p>This section includes a monitor name dropdown, a reset button, and an apply button:</p>
+<ul>
+<li><strong>Monitor Dropdown</strong>: Lets the user select the primary monitor. The primary monitor is where apps will defaultly open and the taskbar will appear (if not shown on all monitors).</li>
+<li><strong>Reset Button</strong>: Resets the primary monitor to the last applied or synced value.</li>
+<li><strong>Apply Button</strong>: Makes the selected monitor the system’s new primary monitor.</li>
+</ul>
+
+            </div>
+        </article></main>
+</div>
+<footer class="footer">
+    <span class="footer_item"> </span>
+    &nbsp;
+
+    <div class="footer_social-icons">
+<a href="https://github.com/bossadapt" target="_blank" rel="noopener noreferrer me"
+    title="Github">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+    </path>
+</svg>
+</a>
+<a href="https://www.youtube.com/@HardstuckDream" target="_blank" rel="noopener noreferrer me"
+    title="Youtube">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z">
+    </path>
+    <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+</svg>
+</a>
+<a href="https://www.linkedin.com/in/devin-phillips-040699191/" target="_blank" rel="noopener noreferrer me"
+    title="Linkedin">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+    <rect x="2" y="9" width="4" height="12"></rect>
+    <circle cx="4" cy="4" r="2"></circle>
+</svg>
+</a>
+<a href="https://bossadapt.org/" target="_blank" rel="noopener noreferrer me"
+    title="Cv">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M4 4v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8.342a2 2 0 0 0-.602-1.43l-4.44-4.342A2 2 0 0 0 13.56 2H6a2 2 0 0 0-2 2z" />
+    <path d="M9 13h6" />
+    <path d="M9 17h3" />
+    <path d="M14 2v4a2 2 0 0 0 2 2h4" />
+</svg>
+</a>
+<a href="https://leetcode.com/u/devinphillips20/" target="_blank" rel="noopener noreferrer me"
+    title="Leetcode">
+    <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path fill="currentColor" d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z"/>
+</svg>
+</a>
+</div>
+    <small class="footer_copyright">
+        © 2025 .
+        
+    </small>
+</footer><a href="#" title="" id="totop">
+    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" stroke="currentColor" viewBox="0 96 960 960">
+    <path d="M283 704.739 234.261 656 480 410.261 725.739 656 677 704.739l-197-197-197 197Z"/>
+</svg>
+
+</a>
+
+
+    
+
+
+
+
+
+
+    
+    <script async src="http://localhost:1313/blogs/js/main.js" ></script>
+
+    
+
+</body>
+</html>

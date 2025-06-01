@@ -1,0 +1,36 @@
+baseURL = 'https://bossadapt.org/blogs/'
+languageCode = 'en-us'
+title = 'Bossadapt Blogs'
+theme = "hugo-blog-awesome"
+
+[params]
+  goToTop = true
+
+[[module.mounts]]
+source = 'static'
+target = 'static'
+
+[[module.mounts]]
+source = 'images'
+target = 'static/images'
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/bossadapt"
+
+[[params.socialIcons]]
+name = "youtube"
+url = "https://www.youtube.com/@HardstuckDream"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/devin-phillips-040699191/"
+
+[[params.socialIcons]]
+name = "cv"
+url = "https://bossadapt.org/"
+
+[[params.socialIcons]]
+name = "leetcode"
+url = "https://leetcode.com/u/devinphillips20/"
+
