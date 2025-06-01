@@ -1,7 +1,7 @@
 +++
 title = 'How to Use Display Settings Plus'
 date = 2025-05-31T13:38:39-05:00
-draft = true
+draft = false
 +++
 # 0: Preface
 This software only works if you are utilizing the [X11 display manager](https://en.wikipedia.org/wiki/X_Window_System). This blog post explains how to become well rounded in the software but most Linux users will be able to use it out of the box and hover over any button to get a quick description to slowly come to understand  how it works. Otherwise, comparisons against alternative programs such as ARandR and source code can be found on the [GitHub page](https://github.com/bossadapt/Display-Settings-Plus).
