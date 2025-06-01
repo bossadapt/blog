@@ -5,6 +5,18 @@
     <link>https://bossadapt.org/blogs/</link>
     <description>Recent content on Bossadapt Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://bossadapt.org/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-gb</language>
+    <lastBuildDate>Sat, 31 May 2025 13:38:39 -0500</lastBuildDate><atom:link href="https://bossadapt.org/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Use Display Settings Plus</title>
+      <link>https://bossadapt.org/blogs/posts/how-to-use-display-settings-plus/</link>
+      <pubDate>Sat, 31 May 2025 13:38:39 -0500</pubDate>
+      
+      <guid>https://bossadapt.org/blogs/posts/how-to-use-display-settings-plus/</guid>
+      
+      <description>0: Preface This software only works if you are utilizing the X11 display manager. This blog post explains how to become well-rounded in the software but most Linux users will be able to use it out of the box and hover over any button to get a quick description to slowly come to understand how it works. Otherwise, comparisons against alternative programs such as ARandR and source code can be found on the GitHub page.</description>
+      
+    </item>
+    
   </channel>
 </rss>

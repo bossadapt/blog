@@ -2,7 +2,7 @@ baseURL = 'https://bossadapt.org/blogs/'
 languageCode = 'en'
 title = 'Bossadapt Blogs'
 theme = "hugo-blog-awesome"
-
+defaultContentLanguage = "en-gb"
 [params]
   goToTop = true
 
@@ -13,7 +13,11 @@ target = 'static'
 [[module.mounts]]
 source = 'images'
 target = 'static/images'
-
+[markup]
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 1
 [[params.socialIcons]]
 name = "github"
 url = "https://github.com/bossadapt"
@@ -34,27 +38,28 @@ url = "https://bossadapt.org/"
 name = "leetcode"
 url = "https://leetcode.com/u/devinphillips20/"
 
-[Languages.en]
+[Languages.en-gb]
   languageName = "English"
-  languageCode = "en"
+  languageCode = "en-gb"
   contentDir = "content/en"
   weight = 1
 
-  [Languages.en.menu]
-  [[Languages.en.menu.main]]
+  [Languages.en-gb.menu]
+  [[Languages.en-gb.menu.main]]
     # The page reference (pageRef) is useful for menu highlighting
     # When pageRef is set, setting `url` is optional; it will be used as a fallback if the page is not found.
     pageRef="/"
     name = 'Home'
     url = '/'
     weight = 10
-  [[Languages.en.menu.main]]
+  [[Languages.en-gb.menu.main]]
     pageRef="posts"
     name = 'Posts'
     url = '/posts/'
     weight = 20
+    
 
-[Languages.en.params]
+[Languages.en-gb.params]
   sitename = "Bossadapt Blog"
   defaultColor = "dark" # set color mode: dark, light, auto
   # Setting it to 'auto' applies the color scheme based on the visitor's device color preference.If you don't specify anything, ignore this parameter, or leave it blank,
@@ -77,7 +82,7 @@ url = "https://leetcode.com/u/devinphillips20/"
   # full - includes full blog post in the RSS feed. Generated using Hugo .Content .
   # By default (or if nothing is specified), summary is used.
 
-[Languages.en.params.author]
+[Languages.en-gb.params.author]
   avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
   intro = "A Taste of the Internet"
@@ -85,7 +90,7 @@ url = "https://leetcode.com/u/devinphillips20/"
   description = "Ramblings of things I've stumbled into on the internet."
 
 # Allow to override webmanifest options
-[Languages.en.params.webmanifest]
+[Languages.en-gb.params.webmanifest]
   name = "sitename" # will use "params.sitename" or "title" by default
   short_name = "sitename" # same as name
   start_url = "/" # will use homepage url by default
